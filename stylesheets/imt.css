@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.logoBar {
+    background: url(../images/background.jpg) repeat-x;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    top: 25px;
+    font-size: 30px;
+    color: blue;
+}
+
+.menu {
+    background: url(../images/menu-background.png) repeat-x;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.menu ul {
+    position: relative;
+    top: 15px;
+}
+
+.menu ul li {
+    padding: 10px;
+    display: inline;
+    color: #3E3E3E;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+#content {
+}
+
+#content .slideshow {
+    width: 658px;
+    height: 374px;
+    overflow: hidden;
+    margin: 10px auto;
+    border: 10px solid #E9E9E9;
+    border-radius: 5px;
+}
+
+#image {
+    width: 658px;
+    height: 374px;
+}
+
+#footer {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
