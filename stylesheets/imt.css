@@ -10,7 +10,7 @@
 }
 
 .logoBar {
-    background: url(../images/background.jpg) repeat-x;
+    background: url(../images/blue_gradient.png) repeat-x;
     width: 100%;
     height: 100px;
     text-align: center;
@@ -18,9 +18,9 @@
 
 .logo {
     position: relative;
-    top: 25px;
+    top: 30px;
     font-size: 30px;
-    color: blue;
+    color: #E9E9E9;
 }
 
 .menu {
