@@ -118,7 +118,7 @@ body {
 #content .statement {
     background: url(../images/black_gradient.png) repeat-x;
     text-align: center;
-    color: white;
+    color: #bfbfbf;
     margin-top: -2px;
     padding: 10px;
 }
@@ -145,15 +145,14 @@ body {
 }
 
 #content .product img {
-    width: 130px;
-    height: 80px;
+    width: 200px;
 }
 
 #content .product .moreInfoButton {
     background: url(../images/black_gradient.png) repeat-x;
     background-position-y: -44px;
     border: 2px solid #bfbfbf;
-    margin: auto auto;
+    margin: 20px auto;
     width: 80px;
     height: 20px;
     color: #16a7e0;
@@ -195,7 +194,7 @@ body {
 }
 
 #footer .moreLinks {
-    padding: 5px;
+    padding: 15px;
 }
 
 #footer .moreLinks li {
