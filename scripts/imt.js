@@ -22,6 +22,10 @@ var startSlideshow = function() {
     image4.src ="images/splash_04.jpg";
     images.push(image4);
 
+    var image5 = new Image();
+    image5.src ="images/splash_05.jpg";
+    images.push(image5); 
+
     setInterval(nextImage, SLIDESHOW_SPEED_MS);
 };
 

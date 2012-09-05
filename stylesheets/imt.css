@@ -1,7 +1,29 @@
+@font-face {
+    font-family: trebuc;
+    src: url(../fonts/trebuc.ttf);
+}
+
+@font-face {
+    font-family: trebucbd;
+    src: url(../fonts/trebucbd.ttf);
+}
+
+@font-face {
+    font-family: trebucbi;
+    src: url(../fonts/trebucbi.ttf);
+}
+
+@font-face {
+    font-family: trebucit;
+    src: url(../fonts/trebucit.ttf);
+}
+
 * {
+    font-family: trebuc;
     margin: 0;
     padding: 0;
 }
+
 
 #header {
     position: relative;
