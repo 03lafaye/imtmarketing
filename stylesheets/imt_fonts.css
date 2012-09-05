@@ -1,0 +1,20 @@
+@font-face {
+    font-family: trebuc;
+    src: url('../fonts/trebuc.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: trebucbd;
+    src: url('../fonts/trebucbd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: trebucbi;
+    src: url('../fonts/trebucbi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: trebucit;
+    src: url('../fonts/trebucit.ttf') format('truetype');
+}
+
