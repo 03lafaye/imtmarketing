@@ -94,11 +94,11 @@ body {
 }
 
 .menu ul.dropDown li {
+    position: relative;
     padding: 5px 0px 5px 12px;
     font-size: 12px;
     text-align: left;
     display: block;
-    z-index: 1000;
 }
 
 .menu li:hover ul.dropDown {
@@ -161,7 +161,6 @@ body {
 /* <products> */
 
 #content .productList {
-    position: relative;
     display: table;
     background-color: #eaeaea;
     width: 100%;
