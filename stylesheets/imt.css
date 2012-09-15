@@ -206,18 +206,17 @@ body {
 
 #content .productList .product img {
     border: none;
-    height: 160px;
+    max-height: 160px;
 }
 
 #content .productList .product img.featuresheets {
-    margin-left: -60px;
+    padding-top: 20px;
+    height: 120px;
 } 
 
-#content .productList .product .title {
-    position: relative;
-}
-
 #content .productList .product .vcenter {
+    height: 158px;
+    margin-top: 10px;
 }
 
 #content .buttonHolder {
