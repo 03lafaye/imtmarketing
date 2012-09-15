@@ -39,6 +39,10 @@ body {
     top: -11px;
 }
 
+.logo img {
+    border: none;
+}
+
 .menu {
     background-color: #bfbfbf;
     width: 100%;
@@ -161,6 +165,7 @@ body {
 /* <products> */
 
 #content .productList {
+    position: relative;
     display: table;
     background-color: #eaeaea;
     width: 100%;
@@ -170,7 +175,7 @@ body {
 }
 
 #content .productList .verticalDivider {
-    border-right: 2px solid #16a7e0;
+    background: url(../images/vertical_divider_blue.png) no-repeat 95% 50%;
 }
 
 #content .productList .product {
@@ -178,9 +183,17 @@ body {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    padding: 0px 103px 0px 89px;
+    width: 250px;
+    height: 200px;
 }
 
+#content .productList .left {
+    padding-right: 80px;
+}
+
+#content .productList .right {
+    padding-left: 50px;
+}
 
 #content .productList .product a {
     text-decoration: none;
@@ -193,12 +206,18 @@ body {
 
 #content .productList .product img {
     border: none;
-    width: 200px;
-    max-height: 170px;
+    height: 160px;
 }
+
+#content .productList .product img.featuresheets {
+    margin-left: -60px;
+} 
 
 #content .productList .product .title {
     position: relative;
+}
+
+#content .productList .product .vcenter {
 }
 
 #content .buttonHolder {
