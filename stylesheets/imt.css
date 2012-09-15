@@ -98,6 +98,7 @@ body {
     font-size: 12px;
     text-align: left;
     display: block;
+    z-index: 1000;
 }
 
 .menu li:hover ul.dropDown {
