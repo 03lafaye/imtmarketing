@@ -69,17 +69,12 @@ body {
     text-decoration: none;
 }
 
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
 .menu ul li:hover {
     background-color: white;
-}
-
-.menu ul li:hover a.topMenu {
-    color: black;
-}
-
-.menu ul.dropDown li:hover a {
-    color: black;
-    text-decoration: underline;
 }
 
 .menu ul.dropDown {
