@@ -55,12 +55,23 @@
       </div>
 
       <form action="contact.php" method="post" class="contactUs">
-        <p>Your Name</p>
+        <p>Your Name *</p>
         <p><input type="text" name="name" class="name"></p>
-        <p>Your e-mail</p>
+        <p>Your e-mail *</p>
         <p><input type="text" name="email" class="email"></p>
-        <p>Message</p>
-        <p><textarea name="message" rows="15" cols="100"></textarea></p>
+        <p>Message *</p>
+        <p><textarea name="message" rows="15" cols="70"></textarea></p>
+        <script type="text/javascript"
+          src="http://www.google.com/recaptcha/api/challenge?k=6LfznNYSAAAAAK7EdTzPHZQ18fRuTx_obci_uS72">
+          </script>
+          <noscript>
+            <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfznNYSAAAAAK7EdTzPHZQ18fRuTx_obci_uS72"
+              height="300" width="500" frameborder="0"></iframe><br>
+            <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+            </textarea>
+            <input type="hidden" name="recaptcha_response_field"
+            value="manual_challenge">
+          </noscript>
         <p><input type="submit" value="Send" class="submit">&nbsp;&nbsp;</p>
       </form>
 
