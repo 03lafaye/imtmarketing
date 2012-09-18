@@ -108,6 +108,7 @@ body {
 #content .slideshow {
     overflow: hidden;
     text-align: center;
+    margin-bottom: -2px;
 }
 
 #image {
@@ -118,8 +119,46 @@ body {
     background: url(../images/black_gradient.png) repeat-x;
     text-align: center;
     color: #bfbfbf;
-    margin-top: -2px;
     padding: 10px;
+}
+
+#content .productTitle {
+    color: #16a7e0;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#content .photoSection {
+    margin: 10px;
+    height: 200px;
+}
+
+#content .photoSection .imagePlaceHolder {
+    display: -moz-inline-box;
+    display: inline-block;
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+    line-height: 0px;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+
+#content .photoSection .photoDescription {
+    display: -moz-inline-box;
+    display: inline-block;
+    margin: 20px;
+    width: 400px;
+    zoom: 1;
+    *display: inline;
+}
+
+#content .photoSection .photoDescription .type {
+    font-size: 24px;
+}
+
+#content .photoSection .photoDescription .text {
 }
 
 #content .divider {
@@ -133,7 +172,7 @@ body {
 }
 
 #content .productSection .product {
-    display: -moz-inline-stack;
+    display: -moz-inline-box;
     display: inline-block;
     zoom: 1;
     *display: inline;
@@ -175,6 +214,7 @@ body {
 
 #content .productList .product {
     vertical-align: middle;
+    display: -moz-inline-box;
     display: inline-block;
     zoom: 1;
     *display: inline;
@@ -207,7 +247,7 @@ body {
 #content .productList .product img.featuresheets {
     padding-top: 20px;
     height: 120px;
-} 
+}
 
 #content .productList .product .vcenter {
     height: 158px;
