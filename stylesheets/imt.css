@@ -141,14 +141,15 @@ body {
 #content .productTitle {
     color: #16a7e0;
     font-size: 30px;
-    margin: 10px;
+    margin: 20px 0px 10px 30px;
 }
 
 #content .productDescription {
     margin: 0 auto;
-    width: 80%;
-    padding: 10px;
-    border: 2px solid #bfbfbf;
+    width: 93%;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
 #content .featureSection {
@@ -166,7 +167,8 @@ body {
 
 #content .photoSection {
     margin: 10px;
-    min-height: 200px;
+    background-color: #eaeaea;
+    padding: 10px;
 }
 
 #content .photoSection ul.bullets li {
@@ -178,40 +180,39 @@ body {
 #content .photoSection img {
     display: -moz-inline-box;
     display: inline-block;
+    margin-top: 10px;
     max-width: 300px;
     max-height: 300px;
     vertical-align: top;
     zoom: 1;
     *display: inline;
     text-align: center;
-}
-
-#content .photoSection .imagePlaceHolder {
-    display: -moz-inline-box;
-    display: inline-block;
-    background-color: gray;
-    width: 300px;
-    height: 200px;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline;
-    text-align: center;
+    border: none;
 }
 
 #content .photoSection .photoDescription {
     display: -moz-inline-box;
     display: inline-block;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     width: 400px;
     zoom: 1;
     *display: inline;
 }
 
 #content .photoSection .photoDescription .type {
-    font-size: 24px;
+    font-size: 21px;
+    color: #16a7e0;
 }
 
 #content .photoSection .photoDescription .text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#content .photoSection .photoDescription .subtext {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-top: 10px;
 }
 
 #content .keyFeatures h3 {
