@@ -152,6 +152,68 @@ body {
     padding-bottom: 20px;
 }
 
+#content .imageStrip img {
+    width: 100%;
+    background-color: #eaeaea;
+    padding: 10px 0px;
+}
+
+#content .bookletSection {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #eaeaea;
+}
+
+#content .bookletSection .book img {
+    max-width: 380px;
+}
+
+#content .bookletSection .book {
+    display: -moz-inline-box;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    max-width: 380px;
+}
+
+#content .bookletSection .book1 {
+    margin-left: 17px;
+}
+
+#content .viewBookletButtonHolder {
+    text-align: center;
+    padding: 10px;
+}
+
+#content .viewBookletButtonHolder .button1 {
+    margin-right: 120px;
+}
+
+#content .viewBookletButtonHolder img {
+    border: none;
+}
+
+#content .bookletSpecSection {
+    background-color: #eaeaea;
+    font-size: 14px;
+    color: #8c8c8c;
+    padding: 10px 10px 10px 100px;
+    margin-bottom: 20px;
+}
+
+#content .bookletSpecSection .book1 {
+    margin-right: 120px;
+}
+
+#content .bookletSpecSection .book {
+    display: -moz-inline-box;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    max-width: 380px;
+}
+
 #content .featureSection {
     margin: 10px;
 }
