@@ -9,6 +9,7 @@ $recaptcha = $_POST['recaptcha_response_field'];
 
 $privatekey = "6LfznNYSAAAAAMXcMJxTTFw_Zq9T1Dp2RTewYc1N";
 
+/*
 $resp = recaptcha_check_answer ($privatekey,
   $_SERVER["REMOTE_ADDR"],
   $_POST["recaptcha_challenge_field"],
@@ -22,7 +23,9 @@ if (!$resp->is_valid) {
   </script>
 <?php
   exit();
-} else if ($name == "" || $email == "" || $message == "") {
+}*/
+
+if ($name == "" || $email == "" || $message == "") {
 ?>
   <script language="javascript" type="text/javascript">
     alert('Name, email, and message are all required fields. Please fill them all in before submitting.');
@@ -40,7 +43,7 @@ if (!$resp->is_valid) {
   exit();
 }
 
-$mail_to = 'info@imtmarketing.com';
+$mail_to = 'sales@imtmarketing.com';
 $subject = 'Message from a site visitor '.$name;
 
 $body_message = 'From: '.$name."\n\n";
@@ -61,7 +64,7 @@ if ($mail_status) { ?>
 }
 else { ?>
   <script language="javascript" type="text/javascript">
-    alert('Something went wrong with our email system. Please, send your email to info@imtmarketing.com');
+    alert('Something went wrong with our email system. Please, send your email to sales@imtmarketing.com');
     window.location = 'contactus.html';
   </script>
 <?php

@@ -158,6 +158,33 @@ body {
     padding: 10px 0px;
 }
 
+#content .contactHeader {
+    width: 100%;
+    background-color: #eaeaea;
+    margin-top: 10px;
+}
+
+#content .contactSectionName {
+    margin-left: 20px;
+}
+
+#content .contactSection {
+    padding: 10px;
+    display: -moz-inline-box;
+    display: inline-block;
+    zoom: 1;
+    *display: inline; 
+}
+
+#content .contactSection .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#content .contactSection .title {
+    color: #16a7e0;
+}
+
 #content .bookletSection {
     width: 100%;
     margin-top: 20px;
