@@ -5,6 +5,8 @@ require_once('recaptchalib.php');
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
+$company = $_POST['company'];
+$phone = $_POST['phone'];
 $recaptcha = $_POST['recaptcha_response_field'];
 
 $privatekey = "6LfznNYSAAAAAMXcMJxTTFw_Zq9T1Dp2RTewYc1N";
@@ -48,6 +50,8 @@ $subject = 'Message from a site visitor '.$name;
 
 $body_message = 'From: '.$name."\n\n";
 $body_message .= 'E-mail: '.$email."\n\n";
+$body_message .= 'Phone: '.$phone."\n\n";
+$body_message .= 'Company: '.$company."\n\n";
 $body_message .= 'Message: '.$message;
 
 $headers = 'From: '.$mail_to."\r\n";

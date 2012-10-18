@@ -173,7 +173,7 @@ body {
     display: -moz-inline-box;
     display: inline-block;
     zoom: 1;
-    *display: inline; 
+    *display: inline;
 }
 
 #content .contactSection .name {
@@ -266,6 +266,28 @@ body {
     font-size: 24px;
 }
 
+#content .photoSection .flyersImage {
+    width: 266px;
+    max-height: 599px;
+}
+
+
+#content .photoSection .imageContainer {
+    display: -moz-inline-box;
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    text-align: center;
+    border: none;
+}
+
+#content .photoSection .imageContainer img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
 #content .photoSection img {
     display: -moz-inline-box;
     display: inline-block;
@@ -302,6 +324,47 @@ body {
     color: #8c8c8c;
     font-size: 13px;
     margin-top: 10px;
+}
+
+#content .photoSection .realestateImage1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 10px;
+    left: 20px;
+    top: -60px;
+    left: -20px;
+}
+
+#content .photoSection .realestateImage2 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    left: -20px;
+}
+#content .photoSection .realestateImage3 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -320px;
+    left: 370px;
+}
+#content .photoSection .realestateImage4 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -160px;
+    left: 210px;
+}
+
+#content .photoSection .realestateDescription {
+    position: relative;
+    left: -60px;
+    margin: 10px;
+}
+#content .realestateSection {
+    height: 450px;
 }
 
 #content .keyFeatures h3 {
